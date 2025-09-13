@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: your-bot-name
+    name: MEMGRAD
     env: python
     python_version: 3.12.6
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    startCommand: "python bot.py"
